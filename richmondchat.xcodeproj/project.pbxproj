@@ -98,7 +98,6 @@
 				C0F9D29C1F628CA300095BA0 /* ChatViewController.swift */,
 				C0F9D29A1F628B5D00095BA0 /* ProfilePageViewController.swift */,
 				C0F9D29E1F629D8F00095BA0 /* User.swift */,
-				E35A0FCC1F627B76005AA798 /* auth.storyboard */,
 				E35A0FD41F628AD9005AA798 /* Auth Page */,
 				E35A0FC11F627937005AA798 /* Assets.xcassets */,
 				E35A0FC31F627937005AA798 /* LaunchScreen.storyboard */,
