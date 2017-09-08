@@ -18,6 +18,8 @@
 		E35A0FC51F627937005AA798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FC31F627937005AA798 /* LaunchScreen.storyboard */; };
 		E35A0FCD1F627B76005AA798 /* auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FCC1F627B76005AA798 /* auth.storyboard */; };
 		E35A0FCF1F62837E005AA798 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FCE1F62837E005AA798 /* GoogleService-Info.plist */; };
+		E35A0FD11F628AB6005AA798 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A0FD01F628AB6005AA798 /* LoginViewController.swift */; };
+		E35A0FD31F628ABE005AA798 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A0FD21F628ABE005AA798 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		E35A0FC61F627937005AA798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35A0FCC1F627B76005AA798 /* auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = auth.storyboard; sourceTree = "<group>"; };
 		E35A0FCE1F62837E005AA798 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E35A0FD01F628AB6005AA798 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E35A0FD21F628ABE005AA798 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E99783A43E7E22AF6577580C /* Pods-richmondchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-richmondchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-richmondchat/Pods-richmondchat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,12 +99,23 @@
 				C0F9D29A1F628B5D00095BA0 /* ProfilePageViewController.swift */,
 				C0F9D29E1F629D8F00095BA0 /* User.swift */,
 				E35A0FCC1F627B76005AA798 /* auth.storyboard */,
+				E35A0FD41F628AD9005AA798 /* Auth Page */,
 				E35A0FC11F627937005AA798 /* Assets.xcassets */,
 				E35A0FC31F627937005AA798 /* LaunchScreen.storyboard */,
 				E35A0FCE1F62837E005AA798 /* GoogleService-Info.plist */,
 				E35A0FC61F627937005AA798 /* Info.plist */,
 			);
 			path = richmondchat;
+			sourceTree = "<group>";
+		};
+		E35A0FD41F628AD9005AA798 /* Auth Page */ = {
+			isa = PBXGroup;
+			children = (
+				E35A0FCC1F627B76005AA798 /* auth.storyboard */,
+				E35A0FD01F628AB6005AA798 /* LoginViewController.swift */,
+				E35A0FD21F628ABE005AA798 /* SignUpViewController.swift */,
+			);
+			name = "Auth Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35A0FD11F628AB6005AA798 /* LoginViewController.swift in Sources */,
 				E35A0FBD1F627937005AA798 /* ViewController.swift in Sources */,
 				C0F9D29B1F628B5D00095BA0 /* ProfilePageViewController.swift in Sources */,
 				C0F9D29D1F628CA300095BA0 /* ChatViewController.swift in Sources */,
 				C0F9D29F1F629D8F00095BA0 /* User.swift in Sources */,
+				E35A0FD31F628ABE005AA798 /* SignUpViewController.swift in Sources */,
 				E35A0FBB1F627937005AA798 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

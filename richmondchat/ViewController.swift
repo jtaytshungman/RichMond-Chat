@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     func observeFireBase(){
         ref = Database.database().reference() // put it in where you call reference - before you make the call !!
-        ref.child(<#T##pathString: String##String#>)
+        
     }
 
     override func didReceiveMemoryWarning() {
