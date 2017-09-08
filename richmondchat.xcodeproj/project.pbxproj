@@ -14,6 +14,7 @@
 		E35A0FC21F627937005AA798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FC11F627937005AA798 /* Assets.xcassets */; };
 		E35A0FC51F627937005AA798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FC31F627937005AA798 /* LaunchScreen.storyboard */; };
 		E35A0FCD1F627B76005AA798 /* auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FCC1F627B76005AA798 /* auth.storyboard */; };
+		E35A0FCF1F62837E005AA798 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FCE1F62837E005AA798 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E35A0FC41F627937005AA798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35A0FC61F627937005AA798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35A0FCC1F627B76005AA798 /* auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = auth.storyboard; sourceTree = "<group>"; };
+		E35A0FCE1F62837E005AA798 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E99783A43E7E22AF6577580C /* Pods-richmondchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-richmondchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-richmondchat/Pods-richmondchat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				E35A0FCC1F627B76005AA798 /* auth.storyboard */,
 				E35A0FC11F627937005AA798 /* Assets.xcassets */,
 				E35A0FC31F627937005AA798 /* LaunchScreen.storyboard */,
+				E35A0FCE1F62837E005AA798 /* GoogleService-Info.plist */,
 				E35A0FC61F627937005AA798 /* Info.plist */,
 			);
 			path = richmondchat;
@@ -156,6 +159,7 @@
 			files = (
 				E35A0FCD1F627B76005AA798 /* auth.storyboard in Resources */,
 				E35A0FC51F627937005AA798 /* LaunchScreen.storyboard in Resources */,
+				E35A0FCF1F62837E005AA798 /* GoogleService-Info.plist in Resources */,
 				E35A0FC21F627937005AA798 /* Assets.xcassets in Resources */,
 				E35A0FC01F627937005AA798 /* Main.storyboard in Resources */,
 			);
