@@ -8,7 +8,7 @@ target 'richmondchat' do
   # Pods for richmondchat
 
 pod 'Firebase/Core'
-pod 'Firebase/Database’
+pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Storage'
 
