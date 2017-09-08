@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		07C11F51CF45DA51AB6E02AD /* Pods_richmondchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770AF50C5CE8D9BFFC81F35A /* Pods_richmondchat.framework */; };
+		C0F9D29B1F628B5D00095BA0 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D29A1F628B5D00095BA0 /* ProfilePageViewController.swift */; };
+		C0F9D29D1F628CA300095BA0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D29C1F628CA300095BA0 /* ChatViewController.swift */; };
+		C0F9D29F1F629D8F00095BA0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D29E1F629D8F00095BA0 /* User.swift */; };
 		E35A0FBB1F627937005AA798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A0FBA1F627937005AA798 /* AppDelegate.swift */; };
 		E35A0FBD1F627937005AA798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A0FBC1F627937005AA798 /* ViewController.swift */; };
 		E35A0FC01F627937005AA798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FBE1F627937005AA798 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		4CC63C4477646AA4786FA0A9 /* Pods-richmondchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-richmondchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-richmondchat/Pods-richmondchat.debug.xcconfig"; sourceTree = "<group>"; };
 		770AF50C5CE8D9BFFC81F35A /* Pods_richmondchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_richmondchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F9D29A1F628B5D00095BA0 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		C0F9D29C1F628CA300095BA0 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C0F9D29E1F629D8F00095BA0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		E35A0FB71F627937005AA798 /* richmondchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = richmondchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A0FBA1F627937005AA798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A0FBC1F627937005AA798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +91,9 @@
 				E35A0FBA1F627937005AA798 /* AppDelegate.swift */,
 				E35A0FBC1F627937005AA798 /* ViewController.swift */,
 				E35A0FBE1F627937005AA798 /* Main.storyboard */,
+				C0F9D29C1F628CA300095BA0 /* ChatViewController.swift */,
+				C0F9D29A1F628B5D00095BA0 /* ProfilePageViewController.swift */,
+				C0F9D29E1F629D8F00095BA0 /* User.swift */,
 				E35A0FCC1F627B76005AA798 /* auth.storyboard */,
 				E35A0FC11F627937005AA798 /* Assets.xcassets */,
 				E35A0FC31F627937005AA798 /* LaunchScreen.storyboard */,
@@ -177,12 +186,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-richmondchat/Pods-richmondchat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35A0FBD1F627937005AA798 /* ViewController.swift in Sources */,
+				C0F9D29B1F628B5D00095BA0 /* ProfilePageViewController.swift in Sources */,
+				C0F9D29D1F628CA300095BA0 /* ChatViewController.swift in Sources */,
+				C0F9D29F1F629D8F00095BA0 /* User.swift in Sources */,
 				E35A0FBB1F627937005AA798 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
