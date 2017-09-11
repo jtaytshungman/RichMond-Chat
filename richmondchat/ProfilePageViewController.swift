@@ -41,7 +41,7 @@ class ProfilePageViewController: UIViewController {
         super.viewDidLoad()
         
         guard let user = selectedUser?.name,
-            let urlImage = selectedUser?.imageUrl else {
+            let urlImage = selectedUser?.imageURL else {
                 return
             
         }
