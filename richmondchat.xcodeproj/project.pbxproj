@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		07C11F51CF45DA51AB6E02AD /* Pods_richmondchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770AF50C5CE8D9BFFC81F35A /* Pods_richmondchat.framework */; };
+		C017A90A1F669A8900EBF81F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017A9091F669A8900EBF81F /* Constants.swift */; };
+		C017A90C1F669A8F00EBF81F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017A90B1F669A8F00EBF81F /* User.swift */; };
+		C017A90E1F669A9A00EBF81F /* UserReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017A90D1F669A9A00EBF81F /* UserReviewTableViewCell.swift */; };
 		C0F9D29B1F628B5D00095BA0 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D29A1F628B5D00095BA0 /* ProfilePageViewController.swift */; };
 		C0F9D29D1F628CA300095BA0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D29C1F628CA300095BA0 /* ChatViewController.swift */; };
-		C0F9D29F1F629D8F00095BA0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D29E1F629D8F00095BA0 /* User.swift */; };
 		E35A0FBB1F627937005AA798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A0FBA1F627937005AA798 /* AppDelegate.swift */; };
 		E35A0FBD1F627937005AA798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A0FBC1F627937005AA798 /* ViewController.swift */; };
 		E35A0FC01F627937005AA798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A0FBE1F627937005AA798 /* Main.storyboard */; };
@@ -25,9 +27,11 @@
 /* Begin PBXFileReference section */
 		4CC63C4477646AA4786FA0A9 /* Pods-richmondchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-richmondchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-richmondchat/Pods-richmondchat.debug.xcconfig"; sourceTree = "<group>"; };
 		770AF50C5CE8D9BFFC81F35A /* Pods_richmondchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_richmondchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C017A9091F669A8900EBF81F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C017A90B1F669A8F00EBF81F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C017A90D1F669A9A00EBF81F /* UserReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserReviewTableViewCell.swift; sourceTree = "<group>"; };
 		C0F9D29A1F628B5D00095BA0 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
 		C0F9D29C1F628CA300095BA0 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		C0F9D29E1F629D8F00095BA0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		E35A0FB71F627937005AA798 /* richmondchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = richmondchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A0FBA1F627937005AA798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A0FBC1F627937005AA798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +101,9 @@
 				E35A0FBE1F627937005AA798 /* Main.storyboard */,
 				C0F9D29C1F628CA300095BA0 /* ChatViewController.swift */,
 				C0F9D29A1F628B5D00095BA0 /* ProfilePageViewController.swift */,
-				C0F9D29E1F629D8F00095BA0 /* User.swift */,
+				C017A90D1F669A9A00EBF81F /* UserReviewTableViewCell.swift */,
+				C017A90B1F669A8F00EBF81F /* User.swift */,
+				C017A9091F669A8900EBF81F /* Constants.swift */,
 				E35A0FD41F628AD9005AA798 /* Auth Page */,
 				E35A0FC11F627937005AA798 /* Assets.xcassets */,
 				E35A0FC31F627937005AA798 /* LaunchScreen.storyboard */,
@@ -200,6 +206,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-richmondchat/Pods-richmondchat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -207,6 +215,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -257,9 +267,11 @@
 			files = (
 				E35A0FD11F628AB6005AA798 /* LoginViewController.swift in Sources */,
 				E35A0FBD1F627937005AA798 /* ViewController.swift in Sources */,
+				C017A90E1F669A9A00EBF81F /* UserReviewTableViewCell.swift in Sources */,
 				C0F9D29B1F628B5D00095BA0 /* ProfilePageViewController.swift in Sources */,
 				C0F9D29D1F628CA300095BA0 /* ChatViewController.swift in Sources */,
-				C0F9D29F1F629D8F00095BA0 /* User.swift in Sources */,
+				C017A90C1F669A8F00EBF81F /* User.swift in Sources */,
+				C017A90A1F669A8900EBF81F /* Constants.swift in Sources */,
 				E35A0FD31F628ABE005AA798 /* SignUpViewController.swift in Sources */,
 				E35A0FBB1F627937005AA798 /* AppDelegate.swift in Sources */,
 			);
